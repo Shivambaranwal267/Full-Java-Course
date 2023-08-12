@@ -14,6 +14,8 @@ public class ValidPerfectSquares {
       i++;
     }
 
+    System.out.println(ans);
+
     if (ans * ans == num) {
       System.out.println(true);
     } else {
