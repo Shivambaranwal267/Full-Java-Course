@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class StringPalindrome {
 
   public static void main(String[] args) {
-    Scanner scn = new Scanner(System.in);
-    String st = scn.nextLine();
+    Scanner sc = new Scanner(System.in);
+    String st = sc.nextLine();
     int n = st.length();
 
     char arr[] = new char[n];
@@ -35,6 +35,6 @@ public class StringPalindrome {
 
     System.out.println("true");
 
-    scn.close();
+    sc.close();
   }
 }
