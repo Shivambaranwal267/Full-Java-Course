@@ -8,9 +8,9 @@ public class incresing {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
 
-    sc.close();
-
     inc(n);
+
+    sc.close();
   }
 
   public static void inc(int n) {
