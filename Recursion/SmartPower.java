@@ -28,6 +28,7 @@ public class SmartPower {
   //     return temp * a;
 
   //     // t.c is 0(n)
+
   //   }
 
   public static long power(int a, int n) {
@@ -36,10 +37,12 @@ public class SmartPower {
     }
 
     long temp = power(a, n / 2);
-    if (n % 2 == 0) {
+    if (n % 2 == 0) { // even
       return temp * temp;
-    } else {
+    } else { // odd
       return temp * temp * a;
     }
+    // t.c is 0(2^N)
+
   }
 }
