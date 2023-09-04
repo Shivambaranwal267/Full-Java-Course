@@ -1,14 +1,19 @@
-
+import java.util.Scanner;
 
 public class testing {
 
   public static void main(String[] args) {
-    char[] ch = { 'a', 'e', 'o', 'm' };
-    String ans = "";
+   Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
 
-    for (int i = 0; i < ch.length; i++) {
-      ans = ans + ch[i];
+    int arr[] = new int[n];
+    for (int i = 0; i < n; i++) {
+      arr[i] = sc.nextInt();
     }
-    System.out.println(ans);
+
+    for (int i = 0; i < n; i++) {
+      System.out.println(arr[i]);
+    }
+    
   }
 }

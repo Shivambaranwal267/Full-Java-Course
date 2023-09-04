@@ -36,6 +36,11 @@ public class SmartPower {
       return a;
     }
 
+    if(n < 0) {
+      a = 1 / a;
+      n = 1 * (-n);
+    }
+
     long temp = power(a, n / 2);
     if (n % 2 == 0) { // even
       return temp * temp;
