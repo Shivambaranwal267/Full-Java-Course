@@ -37,8 +37,7 @@ public class BubbleSort {
 
 
 
-
-
+// 5 7 5 4 10 -2 6 3
 // void bubblesort(int arr[])
 // {
 //     for (int i = 0; i < arr.length; i++)
