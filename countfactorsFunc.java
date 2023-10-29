@@ -14,15 +14,16 @@ public class countfactorsFunc {
 
   public static int countfactors(int n) {
     int count = 0;
-    for (int i = 1; i * i <= n; i++) { // n is sqrt(n)
+    for (int i = 1; i * i <= n; i++) { // n is root(n)
       if (n % i == 0) {
         if (i != n / i) {
           count = count + 2;
-        } else {
+         } else {
           count += 1;
+          continue;
         }
       }
     }
-    return count;
+    return count; 
   }
 }
