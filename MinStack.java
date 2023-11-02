@@ -3,8 +3,8 @@
 // public class MinStack {
 
 //   public static void main(String[] args) {
-//     MinStack s = new MyStack();
-       
+//     Stack<Integer> s = new Stack<>();
+
 //     // Function calls
 //   s.push(3);
 //   s.push(5);
@@ -18,7 +18,7 @@
 //   s.peek();
 //   }
 
-//   public static class MinStack {
+//   public static class getMin {
 
 //     Stack<Integer> st = new Stack<>();
 //     Stack<Integer> min = new Stack<>();
@@ -52,3 +52,29 @@
 //     }
 //   }
 // }
+
+import java.util.Stack;
+
+public class MinStack {
+
+  public static void main(String[] args) {
+    Stack<Integer> s = new Stack<>();
+
+    //   Function calls
+    s.push(3);
+    s.push(5);
+    // s.getMin();
+    s.push(2);
+    s.push(1);
+    // s.getMin();
+    s.pop();
+    // s.getMin();
+    s.pop();
+    s.peek();
+  }
+
+
+
+ }
+
+
