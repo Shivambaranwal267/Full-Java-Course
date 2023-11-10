@@ -33,9 +33,9 @@ public class SingleElementBS {
     // }
 
     // last index
-    // if (arr[n - 1] != arr[n - 2]) {
-    //   return arr[n - 1];
-    // }
+    if (arr[n - 1] != arr[n - 2]) {
+      return arr[n - 1];
+    }
 
     int lo = 2;
     int hi = n - 3;
