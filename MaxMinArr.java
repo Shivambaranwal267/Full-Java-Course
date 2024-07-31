@@ -29,7 +29,7 @@ public class MaxMinArr {
   }
 
   public static void Min(int arr[], int size) {
-    // int max = 0;
+    // int min = 0;
     int min = Integer.MAX_VALUE; // means (- infinity value)
     for (int i = 0; i <= size - 1; i++) {
       if (arr[i] < min) {
