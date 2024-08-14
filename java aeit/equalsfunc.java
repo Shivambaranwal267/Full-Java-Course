@@ -1,6 +1,6 @@
 public class equalsfunc {
     public static void main(String[] args) {
-      
+
         // String s1 = "abc";
         // String s2 = "abc";
         // String s3 = "def";
@@ -11,12 +11,21 @@ public class equalsfunc {
 
         // System.out.println(s1.equals(s4));
         // System.out.println(s1.equalsIgnoreCase(s4));
-     
-        String s1 = "Hello ";
-        String s2 = "Hello";
-       
-        
- 
+
+        // String s = "Hello World";
+        // System.out.println(s.contains("Hello")); // true
+        // System.out.println(s.contains("you")); // false
+
+        // String s = "Hello World";
+        //  String s1 = s.replace('l','m');
+        // System.out.println(s1);//
+
+        String s = "This is suraj";
+        String s1  = s.substring(5, 10);
+        System.out.println(s1);
+
+
+
 
     }
 }
